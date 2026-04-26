@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background: #222;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 100px 20px;
+}
+
+.button {
+  display: inline-block;
+  background: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.game-card {
+  background: #222;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.game-card img,
+.details img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.details {
+  padding: 40px;
+}
