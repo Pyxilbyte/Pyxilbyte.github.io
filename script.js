@@ -3,7 +3,7 @@ const games = {
     title: "Lab 5",
     image: "images/lab5.png",
     description: "A horror game where you wake up in a lab surrounded by failed experiments.",
-    download: "downloads/lab5.zip"
+    download: "https://pyxilbyte.itch.io/lab-5"
   },
 
   epicSoundEffects: {
@@ -17,7 +17,7 @@ const games = {
     title: "Forest Escape",
     image: "images/forest-escape.png",
     description: "You are in a forest, looking for an exit.",
-    download: "downloads/forest-escape.zip"
+    download: "https://pyxilbyte.itch.io/forest-escape-1-1"
   },
 
  survivetheSeeker: {
